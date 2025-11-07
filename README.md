@@ -32,7 +32,7 @@ Les utilisateurs peuvent :
 
 ## 🧰 Stack technique
 
-Ce projet a été conçu avec **[Lovable.dev](https://lovable.dev)** — une plateforme de génération d’applications web no-code/low-code.  
+Ce projet a une base conçue avec Lovable, puis a été améliorée en intern.
 Les technos utilisées peuvent inclure :
 - **Front-end** : React / Next.js  
 - **Backend / Database** : Supabase / Airtable  
