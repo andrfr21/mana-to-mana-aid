@@ -39,6 +39,7 @@ export const CallToAction = () => {
               <Button 
                 size="lg"
                 className="bg-card hover:bg-card/90 text-primary font-semibold shadow-soft w-full sm:w-auto transition-smooth"
+                onClick={() => window.location.href = '/donateur'}
               >
                 Devenir donateur
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -82,6 +83,7 @@ export const CallToAction = () => {
               <Button 
                 size="lg"
                 className="bg-card hover:bg-card/90 text-secondary font-semibold shadow-soft w-full sm:w-auto transition-smooth"
+                onClick={() => window.location.href = '/beneficiaire'}
               >
                 Demander de l'aide
                 <ArrowRight className="ml-2 h-5 w-5" />
