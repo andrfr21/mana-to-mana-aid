@@ -1,179 +1,73 @@
-<<<<<<< HEAD
-# 🌺 Manaaki Connection – Fa’atauturu
-**Connectons ceux qui ont besoin d’aide avec ceux qui peuvent donner.**  
-Un geste simple, un impact réel dans notre communauté polynésienne.
+# Welcome to your Lovable project
 
----
+## Project info
 
-## 💡 Concept
+**URL**: https://lovable.dev/projects/f8fc29cb-349f-4419-97ed-6f2b8f75e3cb
 
-**Fa’atauturu** (ou *Manaaki Connection*) est une application solidaire développée en **Polynésie française**.  
-Elle permet de **mettre en relation les personnes en difficulté** (sans-abri, familles précaires, étudiants dans le besoin, etc.) avec des **donateurs** qui souhaitent offrir des biens matériels ou une aide directe.
+## How can I edit this code?
 
-Les utilisateurs peuvent :
-- créer un **profil solidaire** (bénéficiaire ou donateur) ;
-- consulter les **profils proches géographiquement** ;
-- **prendre contact** pour convenir d’un **rendez-vous** (don de vêtements, repas, objets, etc.) ;
-- agir **localement**, à Papeete, Faa’a, Moorea, Bora Bora et dans toute la Polynésie.
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 🚀 Fonctionnalités principales
+Simply visit the [Lovable Project](https://lovable.dev/projects/f8fc29cb-349f-4419-97ed-6f2b8f75e3cb) and start prompting.
 
-| Rôle | Fonctionnalités clés |
-|------|----------------------|
-| 👥 **Bénéficiaires** | Création de profil, description des besoins (habits, repas, hébergement, etc.), localisation, possibilité de recevoir des dons. |
-| ❤️ **Donateurs** | Navigation dans les profils, filtrage par ville et type de besoin, contact direct pour organiser un don. |
-| 🗺️ **Localisation** | Sélecteur de communes polynésiennes (Papeete, Faa’a, Moorea, etc.). |
-| 💬 **Messagerie simple** | Formulaire ou contact direct entre donateur et bénéficiaire. |
-| 🛡️ **Admin / modération** | Validation des profils, gestion des signalements. |
-| 📱 **Responsive** | Optimisé pour mobile et ordinateur. |
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## 🧰 Stack technique
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Ce projet a été conçu avec **[Lovable.dev](https://lovable.dev)** — une plateforme de génération d’applications web no-code/low-code.  
-Les technos utilisées peuvent inclure :
-- **Front-end** : React / Next.js  
-- **Backend / Database** : Supabase / Airtable  
-- **Auth** : Clerk / Memberstack  
-- **Automatisation** : Make (ex-Integromat) ou Zapier  
-- **Déploiement** : Vercel  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## ⚙️ Installation locale
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### 1️⃣ Cloner le dépôt
-```bash
-git clone https://github.com/<ton-utilisateur>/manaaki-connection.git
-cd manaaki-connection
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-=======
-# 🌺 Fa'atauturu (Mana-to-Mana Aid)
+# Step 3: Install the necessary dependencies.
+npm i
 
-**Application solidaire de mise en relation - Polynésie française**
-
-Connectons ceux qui ont besoin d'aide avec ceux qui peuvent donner. Un geste simple, un impact réel dans notre communauté polynésienne.
-
----
-
-## 🎯 Objectif
-
-Faciliter les dons directs et locaux entre habitants de Polynésie française en permettant :
-- Aux **bénéficiaires** de créer un profil et d'indiquer leurs besoins précis
-- Aux **donateurs** de consulter ces profils et proposer leur aide
-
-## ✨ Fonctionnalités Principales
-
-### Pour les Bénéficiaires
-- ✅ Création de profil sécurisé
-- ✅ Publication de besoins avec description détaillée
-- ✅ Catégorisation (vêtements, nourriture, hygiène, logement, enfants, autre)
-- ✅ Niveaux d'urgence (faible, moyen, urgent)
-- ✅ Gestion de ses propres besoins
-
-### Pour les Donateurs
-- ✅ Navigation dans les profils de bénéficiaires
-- ✅ Filtrage par localisation, catégorie, urgence
-- ✅ Recherche par mots-clés
-- ✅ Contact direct avec les bénéficiaires
-
-## 🛠️ Technologies
-
-- React 18 + TypeScript + Vite
-- Tailwind CSS + shadcn/ui
-- Supabase (PostgreSQL + Auth)
-- Zustand + React Router v6
-
-## 🚀 Installation Rapide
-
-```bash
-# 1. Cloner le projet
-git clone https://github.com/andrfr21/mana-to-mana-aid.git
-cd mana-to-mana-aid
-
-# 2. Installer les dépendances
-npm install
-
-# 3. Configurer Supabase (voir section détaillée ci-dessous)
-cp .env.example .env
-# Modifier .env avec vos clés Supabase
-
-# 4. Lancer en développement
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-## 📋 Configuration Supabase Détaillée
+**Edit a file directly in GitHub**
 
-### 1. Créer un projet Supabase
-1. Allez sur [supabase.com](https://supabase.com)
-2. Créez un compte gratuit
-3. Créez un nouveau projet
-4. Attendez l'initialisation (2-3 min)
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### 2. Exécuter le schéma SQL
-1. Dans Supabase Dashboard, allez dans **SQL Editor**
-2. Cliquez sur **New Query**
-3. Copiez le contenu de `supabase-schema.sql`
-4. Collez et cliquez sur **Run**
+**Use GitHub Codespaces**
 
-### 3. Récupérer les clés API
-1. **Project Settings** > **API**
-2. Copiez :
-   - Project URL
-   - anon public key
-3. Ajoutez-les dans votre fichier `.env`
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 📂 Structure
+## What technologies are used for this project?
 
-```
-src/
-├── components/          # Composants UI
-├── pages/              # Pages de l'app
-├── stores/             # State management (Zustand)
-├── lib/                # Config Supabase
-└── App.tsx             # Point d'entrée
-```
+This project is built with:
 
-## 🗄️ Base de Données
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-- **profiles**: Utilisateurs (donateurs/bénéficiaires)
-- **needs**: Besoins publiés
-- **conversations**: Discussions
-- **messages**: Messages individuels
+## How can I deploy this project?
 
-## 🔒 Sécurité
+Simply open [Lovable](https://lovable.dev/projects/f8fc29cb-349f-4419-97ed-6f2b8f75e3cb) and click on Share -> Publish.
 
-- Row Level Security (RLS) activé
-- Authentification Supabase
-- Validation Zod côté client
-- Chiffrement TLS
+## Can I connect a custom domain to my Lovable project?
 
-## 🌍 Déploiement
+Yes, you can!
 
-### Vercel (Recommandé)
-```bash
-vercel
-```
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-### Netlify
-```bash
-npm run build
-netlify deploy --prod
-```
-
-## 📝 Licence
-
-MIT - Libre d'utilisation
-
-## 🙏 Crédits
-
-Développé pour la communauté polynésienne
-Création initiale avec [Lovable.dev](https://lovable.dev)
-
----
-
-**Fa'a'ite! (À bientôt)** 🌺
->>>>>>> ca23509 (Initial commit - Faatauturu app)
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
